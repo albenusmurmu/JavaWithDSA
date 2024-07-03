@@ -1,0 +1,43 @@
+// Input sum , subtraction , multiplication & Divission of two numbers from Users!....
+
+import java.util.*;
+public class addNumbers{
+    public static void main(String args[]){
+    Scanner sc = new Scanner(Systen.in);
+
+//adding two numbers
+// here a & b is input types variable 
+// nextInt accept integer type inputs
+
+    int a = nextInt(); // a = 6
+    int b = nextInt(); // b = 4
+    int sum = a + b ; // 10
+
+// here sum is main variable which store the value of a+b;
+System.out.println(sum); //10
+
+// Subtraction 
+
+   int sub = a - b ; // sub = 2
+System.out.println(sub); // 2
+
+// Multiplication 
+
+   int mul = a * b ; // mul = 24
+System.out.println(mul) // 24
+
+// Division 
+
+   int div = a / b // 1
+System.out.println(div) // 1
+
+// Modulo
+
+int mod = a % b // 2
+System.out.println(mod) // 2
+
+
+  }
+}
+
+    
